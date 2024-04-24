@@ -22,9 +22,7 @@ Downloaded by pub (not CocoaPods).
   # has been confirmed to be compatible via an example in examples/. See discussion
   # in https://github.com/flutter/flutter/issues/86820 for why this should be as
   # broad as possible.
-  # Versions earlier than 8.4 can't be supported because that's the first version
-  # that supports privacy manifests.
-  s.dependency 'GoogleMaps', '>= 8.4', '< 9.0'
+  s.dependency 'GoogleMaps', '< 9.0'
   s.static_framework = true
   s.platform = :ios, '12.0'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
