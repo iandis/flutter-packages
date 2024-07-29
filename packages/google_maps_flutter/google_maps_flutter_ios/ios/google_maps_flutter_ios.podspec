@@ -22,7 +22,7 @@ Downloaded by pub (not CocoaPods).
   # has been confirmed to be compatible via an example in examples/. See discussion
   # in https://github.com/flutter/flutter/issues/86820 for why this should be as
   # broad as possible.
-  s.dependency 'GoogleMaps', '< 10.0'
+  s.dependency 'GoogleMaps', '< 9.0'
   s.static_framework = true
   s.platform = :ios, '13.0'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
