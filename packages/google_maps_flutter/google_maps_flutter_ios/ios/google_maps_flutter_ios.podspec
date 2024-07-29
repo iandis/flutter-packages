@@ -26,7 +26,7 @@ Downloaded by pub (not CocoaPods).
   # that supports privacy manifests.
   s.dependency 'GoogleMaps', '>= 8.4', '< 10.0'
   s.static_framework = true
-  s.platform = :ios, '14.0'
+  s.platform = :ios, '13.0'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.resource_bundles = {'google_maps_flutter_ios_privacy' => ['Resources/PrivacyInfo.xcprivacy']}
 end
