@@ -345,6 +345,7 @@ gmaps.PolygonOptions _polygonOptionsFromPolygon(
   }
 
   return gmaps.PolygonOptions()
+    ..clickable = polygon.clickable
     ..paths = paths
     ..strokeColor = _getCssColor(polygon.strokeColor)
     ..strokeOpacity = _getCssOpacity(polygon.strokeColor)
