@@ -101,6 +101,7 @@ class Polygon implements MapsObject<Polygon> {
   /// unless overwritten by the specified parameters.
   Polygon copyWith({
     bool? consumeTapEventsParam,
+    bool? clickableParam,
     Color? fillColorParam,
     bool? geodesicParam,
     List<LatLng>? pointsParam,
@@ -114,6 +115,7 @@ class Polygon implements MapsObject<Polygon> {
     return Polygon(
       polygonId: polygonId,
       consumeTapEvents: consumeTapEventsParam ?? consumeTapEvents,
+      clickable: clickableParam ?? clickable,
       fillColor: fillColorParam ?? fillColor,
       geodesic: geodesicParam ?? geodesic,
       points: pointsParam ?? points,
